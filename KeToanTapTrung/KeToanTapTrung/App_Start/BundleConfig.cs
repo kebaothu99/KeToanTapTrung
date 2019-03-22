@@ -28,23 +28,52 @@ namespace KeToanTapTrung
                        //"~/Content/flatlab/assets/data-tables/DT_bootstrap.css"
                        ));
 
-            bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-{version}.js"));
+            bundles.Add(new StyleBundle("~/css/custom").Include(
+                        "~/Content/flatlab/css/style.css",
+                        "~/Content/flatlab/css/style-responsive.css",
 
-            bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
-                        "~/Scripts/jquery.validate*"));
+                        "~/Content/Site.css"
+                        ));
 
-            // Use the development version of Modernizr to develop with and learn from. Then, when you're
-            // ready for production, use the build tool at https://modernizr.com to pick only the tests you need.
-            bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
-                        "~/Scripts/modernizr-*"));
 
-            bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js"));
+            bundles.Add(new ScriptBundle("~/js/common").Include(
 
-            bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/flatlab/js/jquery.js",
+                      "~/Content/flatlab/js/jquery-ui-1.9.2.custom.min.js",
+                      "~/Content/flatlab/js/jquery-migrate-1.2.1.min.js",
+
+                      "~/Scripts/modernizr-*",
+                      "~/Content/flatlab/js/bootstrap.min.js",
+
+                      "~/Content/flatlab/js/jquery.dcjqaccordion.2.7.js",
+                      "~/Content/flatlab/js/jquery.scrollTo.min.js",
+                      "~/Content/flatlab/js/jquery.nicescroll.js",
+
+                      "~/Content/flatlab/js/respond.min.js",
+                      "~/Content/flatlab/js/hover-dropdown.js",
+                      "~/Content/flatlab/js/slidebars.min.js",
+                      "~/Content/flatlab/js/jquery.tagsinput.js",
+
+                      "~/Content/flatlab/assets/bootstrap-datepicker/js/bootstrap-datepicker.js",
+                      "~/Content/flatlab/assets/select2/js/select2.min.js",
+                      "~/Content/flatlab/assets/toastr-master/toastr.js",
+                      "~/Content/flatlab/assets/summernote/dist/summernote.min.js"
+                      ));
+
+            bundles.Add(new ScriptBundle("~/js/plug-in").Include(
+                        "~/Content/politespace/js/politespace.js",
+                        //"~/Scripts/jquery.mask.js",
+                        "~/Content/datatables/1.10.18/js/jquery.dataTables.min.js",
+                        "~/Content/datatables/1.10.18/js/dataTables.bootstrap.min.js"
+                        //"~/Content/datatables/rowgroup/1.0.3/js/dataTables.rowGroup.min.js"
+                        ));
+
+            bundles.Add(new ScriptBundle("~/js/custom").Include(
+                        "~/Content/politespace/js/politespace-init.js",
+                        "~/Scripts/moment.js",
+                        "~/Content/flatlab/js/common-scripts.js",
+                        "~/Scripts/main.js"
+                        ));
         }
     }
 }
