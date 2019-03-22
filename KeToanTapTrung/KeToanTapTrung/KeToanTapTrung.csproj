@@ -141,6 +141,11 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\datatables\1.10.18\css\dataTables.bootstrap.min.css" />
+    <Content Include="Content\datatables\1.10.18\js\dataTables.bootstrap.min.js" />
+    <Content Include="Content\datatables\1.10.18\js\jquery.dataTables.min.js" />
+    <Content Include="Content\datatables\rowgroup\1.0.3\css\rowGroup.bootstrap.min.css" />
+    <Content Include="Content\datatables\rowgroup\1.0.3\js\dataTables.rowGroup.min.js" />
     <Content Include="Content\flatlab\12131.html" />
     <Content Include="Content\flatlab\404.html" />
     <Content Include="Content\flatlab\500.html" />
@@ -520,6 +525,9 @@
     <Content Include="Content\flatlab\tree.html" />
     <Content Include="Content\flatlab\widget.html" />
     <Content Include="Content\flatlab\xchart.html" />
+    <Content Include="Content\politespace\css\politespace.css" />
+    <Content Include="Content\politespace\js\politespace-init.js" />
+    <Content Include="Content\politespace\js\politespace.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -560,6 +568,7 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\main.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -571,10 +580,11 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Shared\_LayoutDefault.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
